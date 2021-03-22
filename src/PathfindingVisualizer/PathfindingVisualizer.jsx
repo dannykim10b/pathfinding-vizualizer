@@ -379,6 +379,9 @@ export default function PathfindingVisualizer() {
 
     return(
         <>
+        <div className="header">
+            <h2>Pathfinding Visualizer</h2>
+        </div>
         <div className="header1">
             {algoType === "" 
             ? <Button className="Button" variant='primary' disabled>Algorithm Required</Button> 
